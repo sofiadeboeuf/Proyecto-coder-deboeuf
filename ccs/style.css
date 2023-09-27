@@ -28,7 +28,7 @@ html{
    font-size: 62,5%;
 }
 
-
+/* Estilos Index */
  .div1{ 
    display: flex;
     height: 500px;
@@ -258,7 +258,6 @@ gap: 5rem;}
    flex-wrap: wrap;}
    
 /* html GIFT CARD */
-
 
 
 .card-title 
