@@ -77,7 +77,7 @@ body{
          color:$text-color-titulos;
          padding-left: 45%;
          flex-wrap: wrap;
-         background-color:rgb(240, 216, 237);}
+         background-color:$color-secundario-2;}
 
  .div1{
     @include flex (null, center, null, null);
@@ -159,7 +159,7 @@ body{
             flex-wrap: wrap;
             a{
                 text-decoration: none;
-                color: black;
+                color: $text-color-titulos;
                 flex-wrap: wrap;
              }
              }
@@ -182,7 +182,8 @@ body{
 .contactos
 {font-size:$font-productos;
    font-family:$letra-principal;
-   flex-wrap: wrap;}
+   flex-wrap: wrap;
+   list-style-type: none; }
 
    /* html productos */
 
@@ -196,6 +197,7 @@ body{
  column-gap: 90px;
  margin-bottom: 40px; 
  flex-wrap: wrap;
+
     
      .producto1
    { @include flex (null, center, null, 5rem); 
