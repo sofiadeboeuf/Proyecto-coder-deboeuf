@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* Paleta de colores*/
+/* fuente*/
+/* tamañp de fuente*/
+@import url("https://fonts.googleapis.com/css2? family= Oswald:wght@300 & family= Playfair+Display:ital,wght@0,400;0,500;1,400 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+  .body {
+    background-color: rgb(247, 236, 236);
+  }
+}
+/* tablet */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .body {
+    background-color: rgb(240, 215, 215);
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  .body {
+    background-color: rgb(250, 232, 208);
+  }
+}
+html {
+  font-size: 62, 5%;
+}
+
+body body {
+  background-size: cover;
+  background-repeat: repeat-x;
+  flex-wrap: wrap;
+}
+body .logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .navbar {
+  background-color: white;
+}
+body .nav-link {
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(14, 9, 9);
+}
+body header {
+  display: flex;
+  background-color: rgb(247, 236, 236);
+}
+body header .navbar {
+  background-color: rgb(255, 255, 255);
+}
+body header .nav-link {
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 3);
+}
+body .titulo {
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 3);
+  padding-left: 45%;
+  flex-wrap: wrap;
+  background-color: rgb(240, 216, 237);
+}
+body .div1 {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 50px;
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: rgb(247, 236, 236);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+body .carousel {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+body .imagencontenedora {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .imagencontenedora .foto-contenedora {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  flex-wrap: wrap;
+}
+body .imagencontenedora .foto-contenedora .articulos {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(83, 80, 80);
+  flex-wrap: wrap;
+}
+body .imagencontenedora .div2 {
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+body footer .mapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+}
+body footer .Copyright {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  font-family: "Oswald", sans-serif;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+  background-color: rgb(247, 236, 236);
+  flex-wrap: wrap;
+}
+body footer .link1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  list-style-type: none;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  flex-wrap: wrap;
+}
+body footer .link1 .redessociales {
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(145, 132, 132);
+  flex-wrap: wrap;
+}
+body footer .link1 .redessociales a {
+  text-decoration: none;
+  color: black;
+  flex-wrap: wrap;
+}
+
+/* html Contacto*/
+.imgcontacto {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+
+.contactos {
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  flex-wrap: wrap;
+}
+
+/* html productos */
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 90px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.grid-container2 .producto1 {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+.grid-container2 .nombrevelas {
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 3);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.grid-container2 .precio {
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 3);
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* html envio seguro */
+.envioseguro {
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  flex-wrap: wrap;
+}
+
+/* html GIFT CARD */
+.card-title {
+  display: flex;
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 3);
+  font-weight: lighter;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  display: flex;
+  font-size: medium;
+  font-family: "Oswald", sans-serif;
+  color: rgb(3, 3, 3);
+  font-weight: lighter;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style-nuevo.css.map */

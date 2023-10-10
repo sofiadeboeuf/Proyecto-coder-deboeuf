@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@300 & family= Playfair+Display:ital,wght@0,400;0,500;1,400 & display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;} 
+
+/* mobile */
+@media only screen and (max-width: 500px){
+.body{ background-color: rgb(247, 236, 236) ;
+   
+}
+}
+
+
+/* tablet */
+@media only screen and (min-width: 501px) and (max-width: 960px){
+   .body{ background-color: rgb(240, 215, 215) ; }
+   }
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+   .body{ background-color: rgb(250, 232, 208) ; }
+}
+
+
+html{
+   font-size: 62,5%;
+}
+
+
+body{
+
+ body {
+        background-size: cover;
+        background-repeat: repeat-x;
+        flex-wrap: wrap;}
+     
+ 
+  .logo
+  {@include sizes (150px, 150px);
+     display: flex;
+   flex-wrap: wrap;
+        }
+        
+
+.navbar{ background-color: $color-nav}
+
+ 
+ .nav-link{font-size:large;
+    font-family:'Oswald', sans-serif;
+ color: rgb(14, 9, 9);
+
+  
+   
+ }
+
+ 
+
+    
+        
+ header {
+    display: flex;
+    background-color:$color-principal ;
+    
+    .navbar{
+        background-color:rgb(255, 255, 255);
+     }
+
+    .nav-link{font-size:$font-navegador;
+        font-family:$letra-principal;
+        color:$text-color-titulos;}}
+
+
+ .titulo {font-size:$font-principal;
+            font-family:$letra-principal ;
+         color:$text-color-titulos;
+         padding-left: 45%;
+         flex-wrap: wrap;
+         background-color:rgb(240, 216, 237);}
+
+ .div1{
+    @include flex (null, center, null, null);
+    @include sizes (600px, 50px);
+   
+    font-size: $font-principal;
+    font-family:$letra-principal;
+    text-align: center;
+    background-color:$color-principal;
+    margin: 0 auto; 
+    flex-wrap: wrap;}
+
+    .carousel {
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
+     
+
+ .imagencontenedora { display: flex;
+        flex-wrap: wrap;
+        .foto-contenedora
+        { display: flex;
+           flex-direction:column;
+           margin-left: 200px;
+           flex-wrap: wrap;
+
+           .articulos{ 
+            @include flex (null, center, null, null);
+            font-size:$font-principal;
+            font-family:$letra-principal;
+            color: $text-color;
+            flex-wrap: wrap;}}
+         .div2
+         { 
+            font-size:$font-principal;
+            font-family:$letra-principal;
+            text-align:center;
+            color:$text-color-titulos;
+            text-decoration: none;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+         } }
+     
+
+        
+    footer {
+        .mapa{
+            @include flex (column, center, null, null);
+            margin: 0 auto;
+            margin-bottom: 5%;
+            flex-wrap: wrap;
+         }
+
+         .Copyright{ 
+            @include flex (null, center, null, null);
+            font-size: $font-secundarias;
+            font-family:$letra-principal;
+            flex-wrap: wrap;
+         margin-bottom: 5%; 
+         background-color:$color-principal;
+         flex-wrap: wrap;}
+         
+         .link1
+         {  @include flex (null, center, center, 100px);
+            list-style-type: none;
+         text-align:center;
+         font-size: $font-principal;
+         font-family:$letra-principal;
+         flex-wrap: wrap;
+
+         .redessociales{
+   
+            font-size:$font-principal;
+            font-family:$letra-principal;
+            color: rgb(145, 132, 132);
+            flex-wrap: wrap;
+            a{
+                text-decoration: none;
+                color: black;
+                flex-wrap: wrap;
+             }
+             }
+        
+         
+         
+         }
+         
+    }}
+
+/* html Contacto*/
+ .imgcontacto {   
+    @include flex (null, center, null, null);
+    @include sizes (900px, 600px);
+         position: relative;
+         margin: 0 auto;
+         margin-top: 5%;
+         flex-wrap: wrap;
+      }
+.contactos
+{font-size:$font-productos;
+   font-family:$letra-principal;
+   flex-wrap: wrap;}
+
+   /* html productos */
+
+
+ .grid-container2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px; 
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+ column-gap: 90px;
+ margin-bottom: 40px; 
+ flex-wrap: wrap;
+    
+     .producto1
+   { @include flex (null, center, null, 5rem); 
+    @include sizes (300px, 300px);
+   margin: 0 auto ;
+  margin-top: 5%;
+   flex-wrap: wrap;
+   }
+  .nombrevelas {
+    font-size:$font-productos;
+        font-family:$letra-principal;
+        color:$text-color-titulos;
+       margin: 0 auto;
+       flex-wrap: wrap;}
+    .precio { 
+    font-size:$font-productos;
+     font-family:$letra-principal;
+     color: $text-color-titulos;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;}
+
+}
+
+/* html envio seguro */
+.envioseguro
+{  font-size:$font-productos;
+   font-family:$letra-principal;
+   text-align:center;
+   color: $text-color-titulos;
+   text-decoration: none;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   flex-wrap: wrap;}
+
+
+/* html GIFT CARD */
+
+
+
+.card-title 
+
+{
+   display: flex;
+   font-size:$font-navegador;
+       font-family: $letra-principal;
+       color:$text-color-titulos;
+      font-weight:lighter;
+      margin: 0 auto;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+   .card-text
+   {
+      display: flex;
+      font-size:$font-secundarias;
+      font-family:$letra-principal;
+      color: $text-color-titulos;
+      font-weight:lighter;
+      margin: 0 auto;
+      justify-content: center;
+      flex-wrap: wrap;
+      }
+   
+
+ 
+ 
+
+ 
+ 
+
+      
+ 
